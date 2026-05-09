@@ -1,5 +1,7 @@
 🚲 AdventureWorks Sales Analysis Project
+
 📋 Project Overview
+
 This project involves building a comprehensive Business Intelligence solution for AdventureWorks, a global manufacturing company. The goal is to transform raw sales, product, customer, and returns data into an interactive dashboard that tracks Key Performance Indicators (KPIs), analyzes regional performance, and identifies product trends.
 
 🛠️ 1. Data Transformation (Power Query)
@@ -69,6 +71,8 @@ The following business logic was implemented using DAX to drive the report's vis
 👑 Executive Summary: High-level KPIs for Revenue, Profit, and Returns at a glance.
 
 🔍 Product Detail: Deep dive into specific product performance and "High Ticket" items.
+
+📉 Trend Lines: Month-over-month comparisons all Sales.
 
 👥 Customer Analysis: Identifying top-tier customers and average revenue per user.
 
