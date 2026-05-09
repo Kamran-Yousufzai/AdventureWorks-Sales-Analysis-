@@ -1,10 +1,10 @@
-🚲 AdventureWorks Sales Analysis Project
+# 🚲 AdventureWorks Sales Analysis
 
-📋 Project Overview
+# 📋 Project Overview
 
 This project involves building a comprehensive Business Intelligence solution for AdventureWorks, a global manufacturing company. The goal is to transform raw sales, product, customer, and returns data into an interactive dashboard that tracks Key Performance Indicators (KPIs), analyzes regional performance, and identifies product trends.
 
-🛠️ 1. Data Transformation (Power Query)
+# 🛠️ 1. Data Transformation (Power Query)
 Before modeling, raw CSV files were processed to ensure data integrity and high performance:
 
 🧹 Data Cleaning: Handled missing values and corrected data types (e.g., Dates, Currency).
@@ -13,7 +13,7 @@ Before modeling, raw CSV files were processed to ensure data integrity and high 
 
 📅 Calendar Table: Generated a dynamic Calendar Lookup table to support advanced Time Intelligence calculations.
 
-🏗️ 2. Data Modeling (Star Schema)
+# 🏗️ 2. Data Modeling (Star Schema)
 The project follows a Star Schema design to optimize performance and ensure accurate filter propagation.
 
 📈 Fact Tables: Sales Data and Returns Data (containing quantitative data).
@@ -22,7 +22,7 @@ The project follows a Star Schema design to optimize performance and ensure accu
 
 🔗 Relationships: Established 1:Many relationships from Dimension tables to Fact tables, ensuring a consistent one-way filter flow.
 
-🧮 3. DAX Calculations (Measures)
+# 🧮 3. DAX Calculations (Measures)
 The following business logic was implemented using DAX to drive the report's visual analytical depth:
 
 💰 Sales & Quantity Metrics
@@ -67,7 +67,7 @@ The following business logic was implemented using DAX to drive the report's vis
 🎯 Target Tracking
 🚩 Target Gaps: Variance measures for Revenue, Profit, and Orders to compare actual performance against business goals.
 
-🎨 4. Key Features & Visualizations
+# 🎨 4. Key Features & Visualizations
 👑 Executive Summary: High-level KPIs for Revenue, Profit, and Returns at a glance.
 
 🔍 Product Detail: Deep dive into specific product performance and "High Ticket" items.
@@ -80,5 +80,5 @@ The following business logic was implemented using DAX to drive the report's vis
 
 🎛️ Interactive Slicers: Dynamic filtering by date, region, and product category.
 
-🚀 5. Conclusion
+# 🚀 5. Conclusion
 This end-to-end Power BI project provides AdventureWorks with a powerful tool to track its global footprint, monitor real-time margins, and understand return rates, ultimately enabling data-driven decision-making.
